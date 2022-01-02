@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,gBAAgB,EAAE,qBAAqB;EACvC,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;CAE/B",
+    "sources": [
+        "origen.scss"
+    ],
+    "names": [],
+    "file": "origen.css"
+}
