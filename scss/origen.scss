@@ -5,7 +5,11 @@
 
 
 
+h1, h2, h3, h4, h5, h6 {
 
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
 .box_container {
     display: flex;
     flex-direction: column;
@@ -13,8 +17,25 @@
     padding: 20px;
     text-align: center;
     color: rgb(87, 87, 87);
+    text-align:center;
 }
-.parrafo_uno {
+.primera_seccion {
+    margin: 50px 50px;
+    
+
+}
+
+.notas_container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    border: black 2px solid;
+    background-color: rgba(100, 153, 155, 0.26);
+}
+
+.box_notas p{
+    text-transform: lowercase;
 
 }
 

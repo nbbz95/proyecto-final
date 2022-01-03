@@ -1,12 +1,26 @@
-h1 h2 h3 h4 h5 h6 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Oswald', sans-serif;
+
 
 }
 
 .parrafo_uno {
     font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size:larger;
     
 }
 
 .boton_container {}
+
+
+.box_container {
+    font-style: normal;
+    font-size: larger;
+}
+
+.box_notas p{
+    font-family: 'Courier New', Courier, monospace;
+
+}
