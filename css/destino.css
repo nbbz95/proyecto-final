@@ -98,3 +98,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
   margin-right: auto;
   width: 50%; }
+
+/*------------FOTOS----------*/
+.galeria {
+  margin: 20px; }
+
+.galeria div img {
+  width: 100%; }
+
+.galeria div {
+  padding: 5px 5px;
+  border: black 2px solid; }
