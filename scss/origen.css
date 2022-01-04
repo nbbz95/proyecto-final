@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(148, 148, 148, 0.397);
 }
 
+.discos_container {
+  background-color: rgba(219, 198, 170, 0.616);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,29 +13,17 @@ h1, h2, h3, h4, h5, h6 {
           box-sizing: border-box;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width: 321px) {
-  /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  /* Styles */
-}
-
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Styles */
+  .galeria {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body {
+    margin: 100vh;
+  }
 }
 
 /* iPads (portrait) ----------- */
@@ -72,6 +64,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .box_notas p {
   font-family: 'Courier New', Courier, monospace;
+}
+
+.discos_container {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Comforter Brush', cursive;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -119,6 +117,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*------------footer----------*/
+footer {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
 /*------------integrantes----------*/
 .main_integrantes {
   margin: 20px;
@@ -131,5 +135,34 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/*------------FOTOS----------*/
+.body_fotos {
+  width: 100%;
+  height: 100vh;
+}
+
+.galeria {
+  margin: 20px;
+}
+
+.galeria div img {
+  width: 100%;
+}
+
+.galeria div {
+  padding: 5px 5px;
+  border: black 2px solid;
+}
+
+/*------------Discografia----------*/
+.discos_container {
+  margin: 20px 20px;
+  padding: 5px;
+}
+
+.disco_container img {
+  width: 500px;
 }
 /*# sourceMappingURL=origen.css.map */

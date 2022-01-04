@@ -11,6 +11,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 20px;
 }
 
+
+
 /*------------index----------*/
 .box_container {
     display: flex;
@@ -43,7 +45,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*------------footer----------*/
 
-
+footer {
+    align-self: end;
+}
 
 
 
@@ -66,8 +70,11 @@ h1, h2, h3, h4, h5, h6 {
 
   /*------------FOTOS----------*/
 
-
-  .galeria {
+.body_fotos {
+    width: 100%;
+    height: 100vh;
+}
+.galeria {
     margin: 20px;
 }
 
@@ -81,3 +88,23 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px 5px;
     border: black 2px solid;
 }
+
+
+/*------------Discografia----------*/
+
+.discos_container {
+    margin: 20px 20px;
+    padding: 5px;
+
+}
+
+.disco_container img{
+    width: 500px;
+    
+
+}
+
+
+
+
+
