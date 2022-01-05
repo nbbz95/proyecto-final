@@ -17,12 +17,18 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
   .galeria {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
   }
   body {
     margin: 100vh;
+  }
+  footer {
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
   }
 }
 
@@ -135,6 +141,11 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/*------------contacto----------*/
+.formulario {
+  height: 1200px;
 }
 
 /*------------FOTOS----------*/
